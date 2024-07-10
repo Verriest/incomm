@@ -48,6 +48,14 @@ Utilisez le shortcode `[latest_recipes]` dans vos pages ou articles pour affiche
 L'utilisation de the_field pour afficher les champs personnalisés peut être sécurisée davantage en échappant les sorties pour prévenir les injections XSS. Par exemple :
 `echo esc_html(get_field('liste_des_ingredients'));`
 
+### Développer plus en profondeur les details des recettes
+l'utilisation D'ACF permettrai le rajout de champs additionnel ( qui ne sont pas demandé dans le cahier des charges )
+- Temps de preparation
+- Pour combien de personne 
+- Description longue recette
+- Annotation Intereactif 
+etc etc 
+
 ### Amélioration du design UI/UX
 Elementor :
 
